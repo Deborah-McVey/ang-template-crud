@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang-template-crud';
+
+  addData(f: any) {
+    console.log(f.value);
+  }
 }
